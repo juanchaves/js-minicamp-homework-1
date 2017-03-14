@@ -13,6 +13,9 @@ module.exports = {
         "semi": [
             "error",
             "always"
-        ]
+        ],
+    },
+    "parserOptions" : {
+       "ecmaVersion": 6
     }
 };
