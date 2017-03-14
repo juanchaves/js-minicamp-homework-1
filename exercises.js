@@ -114,7 +114,7 @@ function roundNumber(num) {
 function roundUp(num) {
   //round num up and return it
   //code here
-  return (Math.roundUp(num));
+  return (Math.ceil(num));
 }
 
 function addExclamationPoint(str) {
@@ -135,7 +135,7 @@ function getGreeting(name) {
   //Take the name string and concatenate other strings onto it so it takes the following form:
   //'Sam' -> 'Hello Sam!'
   //code here
-  return (`Hello ${name}`);
+  return (`Hello ${name}!`);
 }
 
 //If you can't remember these area formulas then head over to Google or look at the test code.
